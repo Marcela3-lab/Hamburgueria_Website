@@ -91,7 +91,8 @@ cartItens.appendChild(cartItemElement);
 });
 cartTotal.textContent = total.toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'});
 
-conter.innerHTML = cart.length;
+const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
+conter.innerHTML = totalItems;
 }
  
 // função para remover o item do carrinho
