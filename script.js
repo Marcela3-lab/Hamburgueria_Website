@@ -136,7 +136,7 @@ if (inputValue !== ""){
 function checkrestauranteopen (){
 const data = new Date();
 const hora = data.getHours();
-return hora >= 9 && hora <= 22; //true
+return hora >= 9 && hora <= 23; //true
 }
 
 
