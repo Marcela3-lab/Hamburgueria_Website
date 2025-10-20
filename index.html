@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+  <link href="./styles/output.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+DE+Grund+Guides&display=swap" rel="stylesheet"/>
+    <title>Hamburguer Dev</title>
+</head>
+<body class="font-sans">
+
+  <!--HEADER-->
+<header class="w-full h-[420px] bg-zinc-900 bg-cover bg-center"
+        style="background-image: url('/assets/bg.jpg');">
+    <div class="w-full h-full flex flex-col justify-center items-center ">
+        <img src="./assets/hamburguer5.jpg"
+        alt="Logo Dev Hamburguer"
+        class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+        />
+     <h1 class="text-3xl mt-4 mb-1 font-bold" style="color: #30913b;">Hamburguer Dev</h1>
+<span style="color: #FFD700;" class="font-medium">Av. dos Burgers, 123 - Lisboa, Portugal</span>
+
+<div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="botaoheader">
+<span class="text-white">De Seg á Sex - 09:00 ás 23:00</span>
+</div>
+
+
+    </div>
+</header>
+  <!--FIM HEADER-->
+  
+  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso menu
+  </h2>
+
+
+  <!--INICIO MENU -->
+<div id="menu">
+    <main class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-7 mx-auto max-w-7xl px-2 mb-16">
+        <!--INICIO PRODUTO ITEM -->
+        <div class="flex flex-col gap-2">
+<img src="./assets/hamburguer1.jpg"
+alt="Hamburguer Simples"
+class="w-30 h-30 rounded-lg shadow-lg hover:scale-105 hover:rotate-2 duration-200"
+/>
+<div>
+    <p class="font-bold">Hamburguer duplo</p>
+    <p class="text-sm">Impossível resistir a este hambúrguer Portugal bem ao estilo português! A carne Angus suculenta e macia, cozinhada a seu gosto, servida com presunto e ovo.
+</p>
+        </div>
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">€18.90</p>
+            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="hamburguer duplo"
+            data-price="18.90">
+    <i class="fas fa-cart-plus text-lg text-white"></i>
+</button>
+</div>
+        </div>
+        <!--FIM  PRODUTO ITEM -->
+
+        <!--INICIO PRODUTO ITEM -->
+        <div class="flex flex-col gap-2">
+<img src="./assets/hamburguer2.jpg"
+alt="Hamburguer Simples"
+class="w-30 h-30 rounded-lg shadow-lg hover:scale-105 hover:rotate-2 duration-200"
+/>
+<div>
+    <p class="font-bold">Hamburguer Smash</p>
+    <p class="text-sm">Carne de bovino (90%), água, pão ralado amido de milho, farinha de arroz, farinha de milho, farelo de milho, água, açúcar, sal, corante (caramelo simples).</p>
+        </div>
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">€28.90</p>
+            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="hamburguer smash"
+            data-price="28.90">
+    <i class="fas fa-cart-plus text-lg text-white"></i>
+</button>
+</div>
+
+        </div>
+        <!--FIM  PRODUTO ITEM -->
+
+        <!--INICIO  PRODUTO ITEM -->
+
+        <div class="flex flex-col gap-2">
+<img src="./assets/hamburguer3.jpg"
+alt="Hamburguer salad"
+class="w-30 h-30 rounded-lg shadow-lg hover:scale-105 hover:rotate-2 duration-200"
+/>
+<div>
+    <p class="font-bold">Hamburguer Salad</p>
+    <p class="text-sm">100gr/cada (Aprox.) Ingredientes: Carne de bovino picada (100%) (origem: Portugal). Não apresenta alergénios na sua constituição.</p>
+        </div>
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">€12.90</p>
+            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="hamburguer salad"
+            data-price="12.90">
+    <i class="fas fa-cart-plus text-lg text-white"></i>
+</button>
+</div>
+
+        </div>
+        <!--FIM  PRODUTO ITEM -->
+
+         <!--INICIO  PRODUTO ITEM -->
+
+        <div class="flex flex-col gap-2">
+<img src="./assets/hamburguer4.jpeg"
+alt="Hamburguer hunter"
+class="w-30 h-30 rounded-lg shadow-lg hover:scale-105 hover:rotate-2 duration-200"
+/>
+<div>
+    <p class="font-bold">Hamburguer Hunter</p>
+    <p class="text-sm">A carne principal é bovina moída, mas também pode incluir frango.</p>
+        </div>
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">€19.90</p>
+            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="hamburguer hunter"
+            data-price="19.90">
+    <i class="fas fa-cart-plus text-lg text-white"></i>
+  </button>
+  </div>
+        </div>
+        
+    </main>
+        <!--FIM  PRODUTO ITEM -->
+
+
+                 <!--INICIO  PRODUTO ITEM -->
+
+
+
+<!-- Seção de Bebidas -->
+<div class="mx-auto max-w-7xl px-2 my-10">
+  <h2 class="font-bold text-3xl mb-6 text-center">Bebidas</h2>
+
+  <main class="grid grid-cols-1 md:grid-cols-2 gap-7">
+    
+    <!-- Produto: Coca Cola -->
+    <div class="flex flex-col gap-2">
+      <img 
+        src="./assets/bebida1.jpg"
+        alt="Coca Cola"
+        class="w-30 h-30 rounded-lg shadow-lg hover:scale-105 hover:rotate-2 duration-200"
+      />
+      <div>
+        <p class="font-bold">Fanta Uva</p>
+        <p class="text-sm">Refrigerante gelado para acompanhar seu lanche.</p>
+      </div>
+
+      <div class="flex items-center gap-2 justify-between mt-3">
+        <p class="font-bold text-lg">€4.90</p>
+        <button 
+          class="bg-gray-900 px-5 rounded add-to-cart-btn"
+          data-name="fanta uva"
+          data-price="4.90">
+          <i class="fas fa-cart-plus text-lg text-white"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Produto: Fanta -->
+    <div class="flex flex-col gap-2">
+      <img 
+        src="./assets/bebida2.jpg"
+        alt="Fanta"
+        class="w-30 h-30 rounded-lg shadow-lg hover:scale-105 hover:rotate-2 duration-200"
+      />
+      <div>
+        <p class="font-bold">Fanta Laranja</p>
+        <p class="text-sm">Refrigerante leve e refrescante, sabor laranja.</p>
+      </div>
+
+      <div class="flex items-center gap-2 justify-between mt-3">
+        <p class="font-bold text-lg">€3.90</p>
+        <button 
+          class="bg-gray-900 px-5 rounded add-to-cart-btn"
+          data-name="fanta laranja"
+          data-price="3.90">
+          <i class="fas fa-cart-plus text-lg text-white"></i>
+        </button>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+
+
+<!--MODAL CART-->
+<div class="bg-black/50 w-full h-full fixed top-0 left-0 z-9 [99] items-center justify-center hidden "id="cartmodal">
+<div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+<h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+
+<div id="cart-items" class="flex justify-between mb-2 flex-col"> 
+</div>
+<p class="font-bold">Total: <Span id="cart-total">0.00</Span></p>
+<p class="font-bold mt-4">Endereço de Entrega:</p>
+
+
+<input type="text" 
+placeholder="Digite seu Endereço Completo"
+id="adress"
+class="w-full border-2 p-1 rounded-2xl my-1"
+/>
+<p class="text-red-500 hidden" id="adress-warning">Digite Seu Endereço Completo</p>
+
+<div class="flex justify-between mt-4" w-full>
+    <button id="close_btn" class="">Fechar</button>
+        <button id="finalizar_btn" class="bg-green-400 text-white px-4 py-1 rounded">Finalizar</button>
+
+</div>
+</div>
+</div>
+<!--B0TTOM CARD FOOTER-->
+</div>
+            </main>
+<footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center ">
+    <button class="flex items-center gap-2 text-white font-bold" id="meucarro">
+        (<span id="cart-count">0</span>)
+        Veja meu carrinho
+        <i class="fas fa-shopping-cart text-lg text-white"></i>
+    </button>
+</footer>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="script.js"></script>
+</body>
+</html>
