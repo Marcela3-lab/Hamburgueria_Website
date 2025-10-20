@@ -8,6 +8,7 @@ const finalizar = document.getElementById('finalizar_btn');
 const conter = document.getElementById('cart-count');
 const perigo = document.getElementById('adress-warning');
 const adressinput = document.getElementById('adress');
+const spanItem = document.getElementById("botaoheader")
 
 let cart =[];
 //Abrir o modal do carrinho
@@ -135,11 +136,10 @@ if (inputValue !== ""){
 function checkrestauranteopen (){
 const data = new Date();
 const hora = data.getHours();
-return hora > 16 && hora < 22; //true
+return hora >= 16 && hora < 22; //true
 }
 
 
-const spanItem = document.getElementById("botaoheader")
 const isOpen = checkrestauranteopen();
 if(isOpen){
     spanItem.classList.remove("bg-red-500");
