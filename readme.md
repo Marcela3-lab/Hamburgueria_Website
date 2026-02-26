@@ -1,48 +1,49 @@
-🍔 Hamburgueria Dev
+# 🍔 Hamburgueria Dev
 
-Projeto simples de uma hamburgueria online, criado só pra treinar e aprender, usando JavaScript, HTML e CSS.
+Projeto de uma **hamburgueria online**, criado **apenas para treinar e aprender** JavaScript, HTML e CSS.  
 
-🚀 Sobre o projeto
+> ⚠️ Esse projeto **não é comercial**. É só pra praticar, testar ideias e ganhar confiança no código que escrevo.
 
-A Hamburgueria Dev é um site de estudo que simula um carrinho de compras, verifica horário de funcionamento e envia pedidos via WhatsApp.
-Nada comercial — só prática mesmo! Aqui eu testei ideias, mexi no DOM, criei eventos e explorei bibliotecas simples.
+---
 
-🍟 Funcionalidades
+## 🚀 Sobre
 
-Adicionar e remover itens do carrinho
+A **Hamburgueria Dev** simula um **carrinho de compras**, calcula o total, verifica se o restaurante está aberto e envia pedidos via WhatsApp.  
+Tudo feito para **prática e aprendizado**, baseado em um tutorial, com algumas adaptações minhas.
 
-Atualização automática do valor total
+---
 
-Verificação de endereço de entrega
+## 🍟 Funcionalidades
 
-Checagem se o restaurante está aberto ou fechado
+- Adicionar e remover itens do carrinho  
+- Atualização automática do valor total  
+- Verificação de endereço de entrega  
+- Checagem de horário de funcionamento do restaurante  
+- Envio de pedidos via WhatsApp  
 
-Envio de pedidos via WhatsApp
+---
 
-💻 Tecnologias utilizadas
+## 💻 Tecnologias
 
-HTML5
+- **HTML5**  
+- **CSS3 (Tailwind)**  
+- **JavaScript (puro)**  
+- **Toastify.js** (para alertas bonitinhos)
 
-CSS3 (Tailwind)
+---
 
-JavaScript (puro)
+## 🎯 Objetivo
 
-Toastify.js (para alertas)
+- Praticar manipulação do DOM e eventos em JavaScript  
+- Treinar lógica, arrays e objetos  
+- Explorar bibliotecas externas  
+- Criar um site interativo e funcional **do zero**  
 
-🎯 Objetivo
+> 💡 Esse tipo de projeto é perfeito para **errados, corrigidos e aprendizados**.  
+> Se você estiver estudando também, sinta-se à vontade para se inspirar!
 
-Esse projeto é 100% educativo. Foi feito para:
+---
 
-Treinar manipulação do DOM e eventos em JavaScript
+## 🙌 Créditos
 
-Experimentar lógica e estrutura de arrays/objetos
-
-Aprender a usar bibliotecas externas
-
-Criar um site interativo “do zero” e ver minhas habilidades evoluírem
-
-⚠️ Aqui não tem fins comerciais, é tudo pra estudar, errar, corrigir e aprender. Quem quiser estudar junto ou se inspirar, sinta-se à vontade!
-
-🙌 Créditos
-
-As imagens usadas são apenas para fins educativos e pertencem aos seus respectivos autores.
+As imagens usadas são **apenas para fins educativos** e pertencem aos seus respectivos autores.  
